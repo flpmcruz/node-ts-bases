@@ -1,6 +1,5 @@
 import { characters } from "../../src/js-foundation/02-destructuring";
 
-
 describe('js-foundation/02-destructuring.ts', () => {
 
   test('charactes should containt Flash, Superman', () => {
@@ -10,7 +9,6 @@ describe('js-foundation/02-destructuring.ts', () => {
 
   });
 
-
   test('first character should be Flash, and second Superman', () => {
 
     const [ flash, superman ] = characters;
@@ -19,6 +17,5 @@ describe('js-foundation/02-destructuring.ts', () => {
     expect( superman ).toBe('Superman');
 
   });
-
 
 });
